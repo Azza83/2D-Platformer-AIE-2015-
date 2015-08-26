@@ -44,8 +44,12 @@ var fpsTime = 0;
 var chuckNorris = document.createElement("img");
 chuckNorris.src = "hero.png";
 
+var RedZombie1 = documnet.createElement("img");
+RedZombie1.src = "Red_Zombie_Idle_1.png";
+
 var player = new Player();
 var keyboard = new Keyboard();
+var enemy = new Enemy();
 
 function run()
 {
