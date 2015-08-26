@@ -2,8 +2,8 @@ var Enemy = function() {
 	this.image = document.createElement("img");
 	this.x = canvas.width/2;
 	this.y = canvas.height/2;
-	this.width = 150;
-	this.height = 160;
+	this.width = 50;
+	this.height = 60;
 	
 	this.image.src = "Red_Zombie_Idle_1.png";
 };
